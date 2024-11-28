@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="Arrays">
-      <change afterPath="$PROJECT_DIR$/src/beginner/arrays/ReverseArray.java" afterDir="false" />
+    <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="Reverse Array">
+      <change afterPath="$PROJECT_DIR$/src/beginner/arrays/FindMaxMin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/beginner/arrays/SumOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/beginner/arrays/SumOfArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,30 +46,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BasicArithmetic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenOddChecker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiplicationTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberComparison.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserInput.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BasicArithmetic.executor": "Run",
+    "Application.EvenOddChecker.executor": "Run",
+    "Application.FindMaxMin.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MultiplicationTable.executor": "Run",
+    "Application.NumberComparison.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
+    "Application.SumOfArray.executor": "Run",
+    "Application.UserInput.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.ReverseArray">
-    <configuration name="EvenOddChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beginner.controlstructures.EvenOddChecker" />
+}]]></component>
+  <component name="RunManager" selected="Application.FindMaxMin">
+    <configuration name="FindMaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beginner.arrays.FindMaxMin" />
       <module name="java-learning-roadmap" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beginner.controlstructures.*" />
+          <option name="PATTERN" value="beginner.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMaxMin" />
         <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.SumOfArray" />
         <item itemvalue="Application.MultiplicationTable" />
         <item itemvalue="Application.NumberComparison" />
-        <item itemvalue="Application.EvenOddChecker" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732554401052</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Reverse Array">
+      <option name="closed" value="true" />
+      <created>1732718576875</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732718576875</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +190,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Control Structure programs" />
     <MESSAGE value="Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays" />
+    <MESSAGE value="Reverse Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverse Array" />
   </component>
 </project>
