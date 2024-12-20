@@ -61,9 +61,13 @@ public class HangmanGame {
         String userGuess = scn.next();
 
         for (int i=0; i < underscoreString.length(); i++){
-            if (userGuess.equalsIgnoreCase(String.valueOf(underscoreString.charAt(i))){
-
-        }
+            if (userGuess.equalsIgnoreCase(String.valueOf(underscoreString.charAt(i)))){
+                String result = underscoreString.replaceAll(underscoreString,userGuess);
+                System.out.println(result);
+            } else {
+                System.out.println("The character you guessed is wrong!");
+                break;
+            }
         }
     }
 }
