@@ -12,6 +12,10 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    public BankAccount() {
+
+    }
+
     public int getAccountNumber() {
         return accountNumber;
     }
