@@ -1,5 +1,13 @@
 package intermediate.oop.bankaccountmanager;
 
+/*Bank Account Manager program:
+
+The program should allow users to:
+- Create a new bank account.
+- Check their balance.
+- Deposit money.
+- Withdraw money (with balance checks to prevent overdrafts).
+*/
 public class BankAccount {
 
     int accountNumber;
@@ -32,6 +40,7 @@ public class BankAccount {
         if (amount > 0){
             balance += amount;
             System.out.println("Deposited: "+amount);
+            System.out.println("Updated Balance: "+getBalance());
         } else {
             System.out.println("Amount entered not valid!");
         }
@@ -41,6 +50,7 @@ public class BankAccount {
         if (amount > 0 && amount < balance){
             balance -= amount;
             System.out.println("Withdrawn: "+amount);
+            System.out.println("Updated Balance: "+getBalance());
         } else {
             System.out.println("Insufficient balance!");
         }
