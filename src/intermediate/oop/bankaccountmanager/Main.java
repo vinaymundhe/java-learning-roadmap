@@ -11,9 +11,9 @@ public class Main {
         System.out.println("3. Check Balance");
         System.out.println("Enter the Number of operation you want to do.");
 
-        int selectdOperation = scn.nextInt();
+        int selectedOperation = scn.nextInt();
 
-        switch (selectdOperation){
+        switch (selectedOperation){
             case 1 :
                 BankAccount bankDeposit = new BankAccount();
                 System.out.println("Enter amount: ");
