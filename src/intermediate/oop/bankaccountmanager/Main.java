@@ -14,20 +14,34 @@ public class Main {
             System.out.println("3. Check Balance");
             System.out.println("Enter the Number of operation you want to do.");
 
-            int selectedOperation = scn.nextInt();
-
+            int selectedOperation = 0;
+            try {
+                selectedOperation = scn.nextInt();
+            } catch (Exception InputMismatchException) {
+                System.out.println("Invalid Input! Enter number of the option.");
+            }
             switch (selectedOperation) {
                 case 1:
                     BankAccount bankDeposit = new BankAccount();
                     System.out.println("Enter amount: ");
-                    double depositAmount = scn.nextInt();
+                    double depositAmount = 0;
+                    try {
+                        depositAmount = scn.nextInt();
+                    } catch (Exception InputMismatchException) {
+                        System.out.println("Invalid Input! Enter amount you want to deposit.");
+                    }
                     bankDeposit.deposit(depositAmount);
                     break;
 
                 case 2:
                     BankAccount bankWithdraw = new BankAccount();
                     System.out.println("Enter amount: ");
-                    double withdrawAmount = scn.nextInt();
+                    double withdrawAmount = 0;
+                    try {
+                        withdrawAmount = scn.nextInt();
+                    } catch (Exception InputMismatchException) {
+                        System.out.println("Invalid Input! Enter amount you want to withdraw.");
+                    }
                     bankWithdraw.withdraw(withdrawAmount);
                     break;
 
@@ -45,4 +59,3 @@ public class Main {
         while (operationContinue);
     }
 }
-
