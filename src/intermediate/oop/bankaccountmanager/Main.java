@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        BankAccount bankAccount = new BankAccount();
         boolean operationContinue = false;
 
         do {
@@ -12,42 +13,45 @@ public class Main {
             System.out.println("1. Deposit");
             System.out.println("2. Withdraw");
             System.out.println("3. Check Balance");
-            System.out.println("Enter the Number of operation you want to do.");
+            System.out.println("What operation you want to do ");
 
             int selectedOperation = 0;
             try {
                 selectedOperation = scn.nextInt();
             } catch (Exception InputMismatchException) {
                 System.out.println("Invalid Input! Enter number of the option.");
+                scn.next();
+                continue;
             }
             switch (selectedOperation) {
                 case 1:
-                    BankAccount bankDeposit = new BankAccount();
                     System.out.println("Enter amount: ");
                     double depositAmount = 0;
                     try {
                         depositAmount = scn.nextInt();
                     } catch (Exception InputMismatchException) {
                         System.out.println("Invalid Input! Enter amount you want to deposit.");
+                        scn.next();
+                        continue;
                     }
-                    bankDeposit.deposit(depositAmount);
+                    bankAccount.deposit(depositAmount);
                     break;
 
                 case 2:
-                    BankAccount bankWithdraw = new BankAccount();
                     System.out.println("Enter amount: ");
                     double withdrawAmount = 0;
                     try {
                         withdrawAmount = scn.nextInt();
                     } catch (Exception InputMismatchException) {
                         System.out.println("Invalid Input! Enter amount you want to withdraw.");
+                        scn.next();
+                        continue;
                     }
-                    bankWithdraw.withdraw(withdrawAmount);
+                    bankAccount.withdraw(withdrawAmount);
                     break;
 
                 case 3:
-                    BankAccount bankBalance = new BankAccount();
-                    bankBalance.displayBalance();
+                    bankAccount.displayBalance();
                     break;
             }
             System.out.println("Want to perform more operation? (Y/N)");
