@@ -1,13 +1,13 @@
 package intermediate.oop.empmanagementsystem;
 
 public class PermanentEmployee extends Employee {
-    String benefits;
-    double bonus;
+    private String benefits;
+    private double bonus;
 
     @Override
     void calculateSalary(){
         Employee employee = new Employee();
-        double totalSalary = employee.salary + bonus;
+        double totalSalary = employee.getSalary() + bonus;
         System.out.println("Salary with bonus: "+totalSalary);
     }
 }
