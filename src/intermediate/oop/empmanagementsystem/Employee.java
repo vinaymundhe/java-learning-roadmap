@@ -9,6 +9,16 @@ public class Employee {
     private String name;
     private double salary;
 
+    public Employee(int id, String name, double salary) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+    }
+
+    public Employee() {
+
+    }
+
     public int getId() {
         return id;
     }
@@ -33,10 +43,10 @@ public class Employee {
         this.salary = salary;
     }
 
-    private void displayDetails(){
+    void displayDetails(){
         System.out.println("Employee Name: "+name);
         System.out.println("Employee Id: "+id);
-        System.out.println("Salary: "+name);
+        System.out.println("Salary: "+salary);
     }
 
     void calculateSalary(){}
