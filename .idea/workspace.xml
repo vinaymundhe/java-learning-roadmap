@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="Made fields private">
+    <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="emp details main method">
+      <change afterPath="$PROJECT_DIR$/src/intermediate/collections/StudentGradesManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediate/oop/empmanagementsystem/ContractEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/oop/empmanagementsystem/ContractEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediate/oop/empmanagementsystem/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/oop/empmanagementsystem/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediate/oop/empmanagementsystem/MenuSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/oop/empmanagementsystem/MenuSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intermediate/oop/empmanagementsystem/PermanentEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intermediate/oop/empmanagementsystem/PermanentEmployee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,32 +46,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BasicArithmetic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculatorUsingFunctions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenOddChecker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMaxMin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrequencyOfElementsInAList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HangmanGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MenuSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiplicationTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberComparison.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberGuessingGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PalindromeChecker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RockPaperScissorsGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniqueWordsCounter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserInput.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BasicArithmetic.executor": "Run",
+    "Application.CalculatorUsingFunctions.executor": "Run",
+    "Application.EvenOddChecker.executor": "Run",
+    "Application.FindMaxMin.executor": "Run",
+    "Application.FrequencyOfElementsInAList.executor": "Run",
+    "Application.HangmanGame.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MenuSystem.executor": "Run",
+    "Application.MultiplicationTable.executor": "Run",
+    "Application.NumberComparison.executor": "Run",
+    "Application.NumberGuessingGame.executor": "Run",
+    "Application.PalindromeChecker.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
+    "Application.RockPaperScissorsGame.executor": "Run",
+    "Application.StudentGradesManager.executor": "Run",
+    "Application.SumOfArray.executor": "Run",
+    "Application.UniqueWordsCounter.executor": "Run",
+    "Application.UserInput.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="beginner.collections" />
@@ -82,26 +80,13 @@
       <recent name="beginner.functions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MenuSystem">
+  <component name="RunManager" selected="Application.StudentGradesManager">
     <configuration name="FrequencyOfElementsInAList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="beginner.collections.FrequencyOfElementsInAList" />
       <module name="java-learning-roadmap" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="beginner.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HangmanGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beginner.miniprojects.HangmanGame" />
-      <module name="java-learning-roadmap" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="beginner.miniprojects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,6 +120,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentGradesManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.collections.StudentGradesManager" />
+      <module name="java-learning-roadmap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="intermediate.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UniqueWordsCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="beginner.collections.UniqueWordsCounter" />
       <module name="java-learning-roadmap" />
@@ -150,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentGradesManager" />
         <item itemvalue="Application.MenuSystem" />
         <item itemvalue="Application.FrequencyOfElementsInAList" />
         <item itemvalue="Application.UniqueWordsCounter" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HangmanGame" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736057149428</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="emp details main method">
+      <option name="closed" value="true" />
+      <created>1736440723903</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1736440723903</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +391,8 @@
     <MESSAGE value="Started withCollections programs" />
     <MESSAGE value="Frequency of Elements in a List" />
     <MESSAGE value="Made fields private" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made fields private" />
+    <MESSAGE value="emp details main method" />
+    <option name="LAST_COMMIT_MESSAGE" value="emp details main method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
