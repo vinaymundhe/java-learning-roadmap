@@ -1,4 +1,4 @@
-package beginner.collections;
+package intermediate.collections;
 
 import java.util.*;
 
