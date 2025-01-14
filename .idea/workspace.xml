@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="ArrayList basics">
+    <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="refactored collections package">
+      <change afterPath="$PROJECT_DIR$/src/intermediate/streams/FilterEvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intermediate/streams/StringsToUppercase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +52,7 @@
     "Application.BasicArithmetic.executor": "Run",
     "Application.CalculatorUsingFunctions.executor": "Run",
     "Application.EvenOddChecker.executor": "Run",
+    "Application.FilterEvenNumbers.executor": "Run",
     "Application.FindMaxMin.executor": "Run",
     "Application.FrequencyOfElementsInAList.executor": "Run",
     "Application.GroceryListOrganizer.executor": "Run",
@@ -62,6 +65,8 @@
     "Application.PalindromeChecker.executor": "Run",
     "Application.ReverseArray.executor": "Run",
     "Application.RockPaperScissorsGame.executor": "Run",
+    "Application.StringsToUppercase.executor": "Run",
+    "Application.StringstoUppercase.executor": "Run",
     "Application.StudentGradesManager.executor": "Run",
     "Application.SumOfArray.executor": "Run",
     "Application.UniqueWordsCounter.executor": "Run",
@@ -75,18 +80,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="intermediate.streams" />
       <recent name="beginner.collections" />
       <recent name="beginner.miniprojects" />
       <recent name="beginner.functions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GroceryListOrganizer">
-    <configuration name="FrequencyOfElementsInAList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beginner.collections.FrequencyOfElementsInAList" />
+  <component name="RunManager" selected="Application.StringsToUppercase">
+    <configuration name="FilterEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.streams.FilterEvenNumbers" />
       <module name="java-learning-roadmap" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="beginner.collections.*" />
+          <option name="PATTERN" value="intermediate.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.oop.empmanagementsystem.MenuSystem" />
+    <configuration name="StringsToUppercase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.streams.StringsToUppercase" />
       <module name="java-learning-roadmap" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intermediate.oop.empmanagementsystem.*" />
+          <option name="PATTERN" value="intermediate.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringstoUppercase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.streams.StringstoUppercase" />
+      <module name="java-learning-roadmap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="intermediate.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,26 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueWordsCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="beginner.collections.UniqueWordsCounter" />
-      <module name="java-learning-roadmap" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="beginner.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringsToUppercase" />
+        <item itemvalue="Application.StringstoUppercase" />
+        <item itemvalue="Application.FilterEvenNumbers" />
         <item itemvalue="Application.GroceryListOrganizer" />
         <item itemvalue="Application.StudentGradesManager" />
-        <item itemvalue="Application.MenuSystem" />
-        <item itemvalue="Application.FrequencyOfElementsInAList" />
-        <item itemvalue="Application.UniqueWordsCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736605810117</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="refactored collections package">
+      <option name="closed" value="true" />
+      <created>1736706332595</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1736706332595</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -410,7 +424,8 @@
     <MESSAGE value="emp details main method" />
     <MESSAGE value="Hashmap basics" />
     <MESSAGE value="ArrayList basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList basics" />
+    <MESSAGE value="refactored collections package" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored collections package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
