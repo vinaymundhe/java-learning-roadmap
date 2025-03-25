@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="added basic streams problems">
-      <change afterPath="$PROJECT_DIR$/src/intermediate/streams/SumOfSquares.java" afterDir="false" />
+    <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="Fixes for LibraryBookTracker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,37 +45,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BasicArithmetic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculatorUsingFunctions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenOddChecker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FilterEvenNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMaxMin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrequencyOfElementsInAList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroceryListOrganizer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HangmanGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MenuSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiplicationTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberComparison.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumberGuessingGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PalindromeChecker.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RockPaperScissorsGame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringsToUppercase.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringstoUppercase.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentGradesManager.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumOfArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniqueWordsCounter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserInput.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BasicArithmetic.executor": "Run",
+    "Application.CalculatorUsingFunctions.executor": "Run",
+    "Application.EvenOddChecker.executor": "Run",
+    "Application.FileParserApp.executor": "Run",
+    "Application.FilterEvenNumbers.executor": "Run",
+    "Application.FindMaxMin.executor": "Run",
+    "Application.FrequencyOfElementsInAList.executor": "Run",
+    "Application.GroceryListOrganizer.executor": "Run",
+    "Application.HangmanGame.executor": "Run",
+    "Application.LibraryBookTracker.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MenuSystem.executor": "Run",
+    "Application.MultiplicationTable.executor": "Run",
+    "Application.NumberComparison.executor": "Run",
+    "Application.NumberGuessingGame.executor": "Run",
+    "Application.PalindromeChecker.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
+    "Application.RockPaperScissorsGame.executor": "Run",
+    "Application.StringsToUppercase.executor": "Run",
+    "Application.StringstoUppercase.executor": "Run",
+    "Application.StudentGradesManager.executor": "Run",
+    "Application.SumOfArray.executor": "Run",
+    "Application.UniqueWordsCounter.executor": "Run",
+    "Application.UserInput.executor": "Run",
+    "Application.WordsLength.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Projects/springboot-rest-api/springboot-rest-api"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="intermediate.streams" />
@@ -85,13 +88,14 @@
       <recent name="beginner.functions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringsToUppercase">
-    <configuration name="FilterEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.streams.FilterEvenNumbers" />
+  <component name="RunManager" selected="Application.LibraryBookTracker">
+    <configuration name="FileParserApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.fileparser.FileParserApp" />
       <module name="java-learning-roadmap" />
+      <option name="PROGRAM_PARAMETERS" value="D:\Projects\employees.csv" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intermediate.streams.*" />
+          <option name="PATTERN" value="intermediate.fileparser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroceryListOrganizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.collections.GroceryListOrganizer" />
+    <configuration name="LibraryBookTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.oop.librarybooktracker.LibraryBookTracker" />
       <module name="java-learning-roadmap" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intermediate.collections.*" />
+          <option name="PATTERN" value="intermediate.oop.librarybooktracker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentGradesManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.collections.StudentGradesManager" />
+    <configuration name="WordsLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.streams.WordsLength" />
       <module name="java-learning-roadmap" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intermediate.collections.*" />
+          <option name="PATTERN" value="intermediate.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,13 +155,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.FileParserApp" />
+      <item itemvalue="Application.LibraryBookTracker" />
+      <item itemvalue="Application.StringsToUppercase" />
+      <item itemvalue="Application.StringstoUppercase" />
+      <item itemvalue="Application.WordsLength" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryBookTracker" />
+        <item itemvalue="Application.FileParserApp" />
+        <item itemvalue="Application.WordsLength" />
         <item itemvalue="Application.StringsToUppercase" />
         <item itemvalue="Application.StringstoUppercase" />
-        <item itemvalue="Application.FilterEvenNumbers" />
-        <item itemvalue="Application.GroceryListOrganizer" />
-        <item itemvalue="Application.StudentGradesManager" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +405,55 @@
       <option name="project" value="LOCAL" />
       <updated>1736865252668</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Basic streams problems">
+      <option name="closed" value="true" />
+      <created>1737051559953</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1737051559953</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Basic streams problems">
+      <option name="closed" value="true" />
+      <created>1737397454569</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1737397454569</updated>
+    </task>
+    <task id="LOCAL-00031" summary="File Parser App">
+      <option name="closed" value="true" />
+      <created>1742671811318</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1742671811318</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Update- File Parser App">
+      <option name="closed" value="true" />
+      <created>1742672826581</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1742672826581</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Library Book Tracker">
+      <option name="closed" value="true" />
+      <created>1742832524878</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1742832524878</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Fixes for LibraryBookTracker">
+      <option name="closed" value="true" />
+      <created>1742927143158</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1742927143158</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,10 +468,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Control Structure programs" />
-    <MESSAGE value="Arrays" />
-    <MESSAGE value="Reverse Array" />
-    <MESSAGE value="MaxMin Array" />
     <MESSAGE value="CalculatorUsingFunctions" />
     <MESSAGE value="updateCalculatorUsingFunctions" />
     <MESSAGE value="PalindromeChecker" />
@@ -433,7 +488,12 @@
     <MESSAGE value="ArrayList basics" />
     <MESSAGE value="refactored collections package" />
     <MESSAGE value="added basic streams problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="added basic streams problems" />
+    <MESSAGE value="Basic streams problems" />
+    <MESSAGE value="File Parser App" />
+    <MESSAGE value="Update- File Parser App" />
+    <MESSAGE value="Library Book Tracker" />
+    <MESSAGE value="Fixes for LibraryBookTracker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes for LibraryBookTracker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -442,6 +502,21 @@
           <properties class="java.util.InputMismatchException" package="java.util" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/intermediate/oop/librarybooktracker/LibraryBookTracker.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/intermediate/oop/librarybooktracker/LibraryBookTracker.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/intermediate/oop/librarybooktracker/LibraryBookTracker.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
