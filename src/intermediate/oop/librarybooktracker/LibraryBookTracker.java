@@ -18,6 +18,7 @@ public class LibraryBookTracker {
 
         Scanner scn = new Scanner(System.in);
         boolean toContinue = true;
+        List<Book> listOfBooks = new ArrayList<>();
 
         while (toContinue) {
             System.out.println("Library Book Tracker: \n" +
@@ -27,8 +28,7 @@ public class LibraryBookTracker {
                     "4. Display All Books\n" +
                     "5. Exit");
             int userInput = scn.nextInt();
-
-            List<Book> listOfBooks = new ArrayList<>();
+            scn.nextLine();
 
             switch (userInput) {
                 case 1:
@@ -71,7 +71,7 @@ public class LibraryBookTracker {
 
                 case 4:
                     for (Book allBooks : listOfBooks) {
-                        System.out.println("List of all Books: " + allBooks);
+                        System.out.println("Books available: " + allBooks);
                     }
                     break;
 
