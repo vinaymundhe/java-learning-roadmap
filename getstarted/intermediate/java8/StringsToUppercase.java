@@ -7,7 +7,7 @@ import java.util.List;
 public class StringsToUppercase {
     public static void main(String[] args) {
 
-        List<String> names = Arrays.asList("John","Vinay","Anjali","Rasika");
+        List<String> names = Arrays.asList("John", "Vinay", "Anjali", "Rasika");
 
         names.stream()
                 .map(String::toUpperCase)
