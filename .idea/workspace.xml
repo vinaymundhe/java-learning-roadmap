@@ -5,12 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="Refacturing">
-      <change afterPath="$PROJECT_DIR$/getstarted/intermediate/java8/MinimumNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getstarted/intermediate/java8/UniqueListWithDescendingOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/getStarted/intermediate/collections/CorrectCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/java8/ElementsInBothLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/getstarted/intermediate/java8/ElementsInBothLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/java8/FilterEvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/getstarted/intermediate/java8/FilterEvenNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/java8/StringsToUppercase.java" beforeDir="false" afterPath="$PROJECT_DIR$/getstarted/intermediate/java8/StringsToUppercase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/BasicArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/BasicArithmetic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/arrays/FindMaxMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/arrays/FindMaxMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/arrays/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/arrays/ReverseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/arrays/SumOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/arrays/SumOfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/controlstructures/EvenOddChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/controlstructures/EvenOddChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/controlstructures/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/controlstructures/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/controlstructures/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/controlstructures/MultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/controlstructures/NumberComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/controlstructures/NumberComparison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/functions/CalculatorUsingFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/functions/CalculatorUsingFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/functions/PalindromeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/functions/PalindromeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/functions/PrimeNumberCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/functions/PrimeNumberCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/miniprojects/HangmanGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/miniprojects/HangmanGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/miniprojects/NumberGuessingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/miniprojects/NumberGuessingGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/beginner/miniprojects/RockPaperScissorsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/beginner/miniprojects/RockPaperScissorsGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/collections/FrequencyOfElementsInAList.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/collections/FrequencyOfElementsInAList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/collections/GroceryListOrganizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/collections/GroceryListOrganizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/collections/StudentGradesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/collections/StudentGradesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/collections/UniqueWordsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/collections/UniqueWordsCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/fileparser/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/fileparser/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/fileparser/FileParserApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/fileparser/FileParserApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/java8/ElementsInBothLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/ElementsInBothLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/java8/FilterEvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/FilterEvenNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/java8/MinimumNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/MinimumNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/java8/StringsToUppercase.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StringsToUppercase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/java8/SumOfSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/SumOfSquares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/java8/UniqueListWithDescendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/UniqueListWithDescendingOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/java8/WordsLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/WordsLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/oop/bankaccountmanager/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/oop/bankaccountmanager/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/oop/bankaccountmanager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/oop/bankaccountmanager/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/oop/empmanagementsystem/ContractEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/oop/empmanagementsystem/ContractEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/oop/empmanagementsystem/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/oop/empmanagementsystem/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/oop/empmanagementsystem/MenuSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/oop/empmanagementsystem/MenuSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/oop/empmanagementsystem/PermanentEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/oop/empmanagementsystem/PermanentEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/oop/librarybooktracker/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/oop/librarybooktracker/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getstarted/intermediate/oop/librarybooktracker/LibraryBookTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/oop/librarybooktracker/LibraryBookTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-learning-roadmap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-learning-roadmap.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +66,17 @@
     &quot;assignee&quot;: &quot;vinaymundhe&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/vinaymundhe/java-learning-roadmap.git&quot;,
-    &quot;accountId&quot;: &quot;2c545c78-6d99-42fc-90d0-b582481e2451&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/vinaymundhe/java-learning-roadmap.git",
+    "accountId": "09634059-66eb-4b01-8748-cf204a9d464a"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2p9gGQEfumP4c5EPAx4O69D4qkX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -54,6 +87,7 @@
   "keyToString": {
     "Application.BasicArithmetic.executor": "Run",
     "Application.CalculatorUsingFunctions.executor": "Run",
+    "Application.CorrectCollection.executor": "Run",
     "Application.ElementsInBothLists.executor": "Run",
     "Application.EvenOddChecker.executor": "Run",
     "Application.FileParserApp.executor": "Run",
@@ -81,11 +115,12 @@
     "Application.UserInput.executor": "Run",
     "Application.WordsLength.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/springboot-rest-api/springboot-rest-api"
+    "last_opened_file_path": "D:/Projects/java-learning-roadmap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -96,13 +131,13 @@
       <recent name="beginner.functions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumNumber">
-    <configuration name="ElementsInBothLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.java8.ElementsInBothLists" />
+  <component name="RunManager" selected="Application.CorrectCollection">
+    <configuration name="CorrectCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.collections.CorrectCollection" />
       <module name="java-learning-roadmap" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intermediate.java8.*" />
+          <option name="PATTERN" value="intermediate.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,13 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileParserApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.fileparser.FileParserApp" />
+    <configuration name="ElementsInBothLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.java8.ElementsInBothLists" />
       <module name="java-learning-roadmap" />
-      <option name="PROGRAM_PARAMETERS" value="D:\Projects\employees.csv" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intermediate.fileparser.*" />
+          <option name="PATTERN" value="intermediate.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +198,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CorrectCollection" />
       <item itemvalue="Application.ElementsInBothLists" />
       <item itemvalue="Application.MinimumNumber" />
       <item itemvalue="Application.UniqueListWithDescendingOrder" />
-      <item itemvalue="Application.FileParserApp" />
       <item itemvalue="Application.LibraryBookTracker" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CorrectCollection" />
         <item itemvalue="Application.MinimumNumber" />
         <item itemvalue="Application.UniqueListWithDescendingOrder" />
         <item itemvalue="Application.ElementsInBothLists" />
         <item itemvalue="Application.LibraryBookTracker" />
-        <item itemvalue="Application.FileParserApp" />
       </list>
     </recent_temporary>
   </component>
