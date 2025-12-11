@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="more streams basics">
-      <change afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/FlatMapWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/LambdaStockSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsAscending.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsAscending.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsDistinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsFilterMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsFilterMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsFrequencyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsFrequencyMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsLengthUppercase.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsLengthUppercase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsListOfLengths.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsListOfLengths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsNameLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsNameLength.java" afterDir="false" />
+    <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="Sorted and Flatmap problems">
+      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/fileparser/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/fileparserapp/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/fileparser/FileParserApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/fileparserapp/FileParserApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -510,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765043815049</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Sorted and Flatmap problems">
+      <option name="closed" value="true" />
+      <created>1765459238428</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1765459238428</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,7 +524,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guessing Game" />
     <MESSAGE value="Rock-Paper-Scissors Game" />
     <MESSAGE value="Hangman Game" />
     <MESSAGE value="OOP BankAccountManager" />
@@ -550,7 +548,8 @@
     <MESSAGE value="Refacturing" />
     <MESSAGE value="streams basics" />
     <MESSAGE value="more streams basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="more streams basics" />
+    <MESSAGE value="Sorted and Flatmap problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorted and Flatmap problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

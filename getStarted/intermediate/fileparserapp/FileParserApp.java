@@ -1,4 +1,4 @@
-package intermediate.fileparser;
+package intermediate.fileparserapp;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

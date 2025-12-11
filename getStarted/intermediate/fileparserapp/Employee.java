@@ -1,4 +1,4 @@
-package intermediate.fileparser;
+package intermediate.fileparserapp;
 
 public class Employee {
     private int id;
