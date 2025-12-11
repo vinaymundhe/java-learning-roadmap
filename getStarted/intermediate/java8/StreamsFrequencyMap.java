@@ -13,7 +13,7 @@ Into a frequency map using Streams.
 
 (Hint: groupingBy + counting)
  */
-public class streamsFrequencyMap {
+public class StreamsFrequencyMap {
     public static void main(String[] args) {
 
         List<String> input = Arrays.asList("A", "B", "A", "B", "C");

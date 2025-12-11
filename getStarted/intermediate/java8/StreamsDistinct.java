@@ -9,7 +9,7 @@ Input:
 
 Goal: Remove duplicates.
  */
-public class streamsDistinct {
+public class StreamsDistinct {
     public static void main(String[] args) {
 
         List<Integer> input = new ArrayList<>();

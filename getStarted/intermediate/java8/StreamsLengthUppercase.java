@@ -10,7 +10,7 @@ Given:
 Return only names with length >= 4,
 and convert them to UPPERCASE.
  */
-public class streamsLengthUppercase {
+public class StreamsLengthUppercase {
     public static void main(String[] args) {
 
         List<String> input = Arrays.asList("vinay", "rasika", "ram", "om");

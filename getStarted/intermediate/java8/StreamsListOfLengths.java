@@ -12,7 +12,7 @@ Return a list of lengths:
 
 (Hint: map each string → string.length())
  */
-public class streamsListOfLengths {
+public class StreamsListOfLengths {
     public static void main(String[] args) {
 
         List<String> input = Arrays.asList("Java", "Spring", "Boot", "Backend");

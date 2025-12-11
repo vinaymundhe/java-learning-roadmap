@@ -2,18 +2,15 @@ package intermediate.java8;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /*
 Input:
 ["apple", "banana", "avocado", "grapes"]
 
 Goal:
-words starting with "a"
-
-convert to uppercase
+Get only words starting with "a".
  */
-public class streamsFilterMap {
+public class StreamsFilter {
     public static void main(String[] args) {
 
         List<String> input = new ArrayList<>();
@@ -24,7 +21,6 @@ public class streamsFilterMap {
 
         List<String> output = input.stream()
                 .filter(o -> o.startsWith("a"))
-                .map(String::toUpperCase)
                 .toList();
 
         System.out.println(output);

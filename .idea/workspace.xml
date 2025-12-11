@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="streams basics">
-      <change afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsAscending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsFrequencyMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsLengthUppercase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsListOfLengths.java" afterDir="false" />
+    <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="more streams basics">
+      <change afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/FlatMapWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/LambdaStockSorted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsAscending.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsAscending.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsDistinct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsFilterMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsFilterMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsFrequencyMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsFrequencyMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsLengthUppercase.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsLengthUppercase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsListOfLengths.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsListOfLengths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/java8/streamsNameLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/java8/StreamsNameLength.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +65,11 @@
     "Application.FileParserApp.executor": "Run",
     "Application.FilterEvenNumbers.executor": "Run",
     "Application.FindMaxMin.executor": "Run",
+    "Application.FlatMapWords.executor": "Run",
     "Application.FrequencyOfElementsInAList.executor": "Run",
     "Application.GroceryListOrganizer.executor": "Run",
     "Application.HangmanGame.executor": "Run",
+    "Application.LambdaStock.executor": "Run",
     "Application.LibraryBookTracker.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MenuSystem.executor": "Run",
@@ -106,9 +114,9 @@
       <recent name="beginner.functions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.streamsFrequencyMap">
-    <configuration name="streamsAscending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.java8.streamsAscending" />
+  <component name="RunManager" selected="Application.FlatMapWords">
+    <configuration name="FlatMapWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.java8.FlatMapWords" />
       <module name="java-learning-roadmap" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="streamsDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.java8.streamsDistinct" />
+    <configuration name="LambdaStockSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.java8.LambdaStockSorted" />
       <module name="java-learning-roadmap" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="streamsFrequencyMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.java8.streamsFrequencyMap" />
+    <configuration name="StreamsFrequencyMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.java8.StreamsFrequencyMap" />
       <module name="java-learning-roadmap" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="streamsLengthUppercase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.java8.streamsLengthUppercase" />
+    <configuration name="StreamsLengthUppercase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.java8.StreamsLengthUppercase" />
       <module name="java-learning-roadmap" />
       <extension name="coverage">
         <pattern>
@@ -159,8 +167,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="streamsListOfLengths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.java8.streamsListOfLengths" />
+    <configuration name="StreamsListOfLengths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.java8.StreamsListOfLengths" />
       <module name="java-learning-roadmap" />
       <extension name="coverage">
         <pattern>
@@ -173,19 +181,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.streamsAscending" />
-      <item itemvalue="Application.streamsFrequencyMap" />
-      <item itemvalue="Application.streamsLengthUppercase" />
-      <item itemvalue="Application.streamsListOfLengths" />
-      <item itemvalue="Application.streamsDistinct" />
+      <item itemvalue="Application.FlatMapWords" />
+      <item itemvalue="Application.LambdaStockSorted" />
+      <item itemvalue="Application.StreamsFrequencyMap" />
+      <item itemvalue="Application.StreamsLengthUppercase" />
+      <item itemvalue="Application.StreamsListOfLengths" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.streamsFrequencyMap" />
-        <item itemvalue="Application.streamsLengthUppercase" />
-        <item itemvalue="Application.streamsListOfLengths" />
-        <item itemvalue="Application.streamsAscending" />
-        <item itemvalue="Application.streamsDistinct" />
+        <item itemvalue="Application.FlatMapWords" />
+        <item itemvalue="Application.LambdaStockSorted" />
+        <item itemvalue="Application.StreamsFrequencyMap" />
+        <item itemvalue="Application.StreamsLengthUppercase" />
+        <item itemvalue="Application.StreamsListOfLengths" />
       </list>
     </recent_temporary>
   </component>
@@ -494,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764955448915</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="more streams basics">
+      <option name="closed" value="true" />
+      <created>1765043815049</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1765043815049</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,7 +525,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated PalindromeChecker" />
     <MESSAGE value="Guessing Game" />
     <MESSAGE value="Rock-Paper-Scissors Game" />
     <MESSAGE value="Hangman Game" />
@@ -534,7 +549,8 @@
     <MESSAGE value="Renamed src as getStarted" />
     <MESSAGE value="Refacturing" />
     <MESSAGE value="streams basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="streams basics" />
+    <MESSAGE value="more streams basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="more streams basics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

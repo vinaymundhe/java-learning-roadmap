@@ -2,7 +2,6 @@ package intermediate.java8;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /*
 Employee names:
@@ -11,7 +10,7 @@ Employee names:
 Goal:
 Return names longer than 4 letters.
  */
-public class streamsNameLength {
+public class StreamsNameLength {
     public static void main(String[] args) {
 
         List<String> input = new ArrayList<>();
