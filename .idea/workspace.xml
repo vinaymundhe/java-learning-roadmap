@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="def173d9-fa54-4dcb-a9ab-a6b6b968ff22" name="Changes" comment="Sorted and Flatmap problems">
-      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/fileparser/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/fileparserapp/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getStarted/intermediate/fileparser/FileParserApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/getStarted/intermediate/fileparserapp/FileParserApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/getStarted/intermediate/multithreading/FirstMultithreadedProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +56,14 @@
     "Application.FileParserApp.executor": "Run",
     "Application.FilterEvenNumbers.executor": "Run",
     "Application.FindMaxMin.executor": "Run",
+    "Application.FirstMultithreadedProgram.executor": "Run",
     "Application.FlatMapWords.executor": "Run",
     "Application.FrequencyOfElementsInAList.executor": "Run",
     "Application.GroceryListOrganizer.executor": "Run",
     "Application.HangmanGame.executor": "Run",
     "Application.LambdaStock.executor": "Run",
     "Application.LibraryBookTracker.executor": "Run",
+    "Application.LiftSystem.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MenuSystem.executor": "Run",
     "Application.MinimumNumber.executor": "Run",
@@ -105,7 +107,20 @@
       <recent name="beginner.functions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlatMapWords">
+  <component name="RunManager" selected="Application.FirstMultithreadedProgram">
+    <configuration name="FirstMultithreadedProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intermediate.multithreading.FirstMultithreadedProgram" />
+      <module name="java-learning-roadmap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="intermediate.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlatMapWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intermediate.java8.FlatMapWords" />
       <module name="java-learning-roadmap" />
@@ -132,6 +147,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LiftSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="beginner.miniprojects.LiftSystem" />
+      <module name="java-learning-roadmap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="beginner.miniprojects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamsFrequencyMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intermediate.java8.StreamsFrequencyMap" />
       <module name="java-learning-roadmap" />
@@ -145,46 +173,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsLengthUppercase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.java8.StreamsLengthUppercase" />
-      <module name="java-learning-roadmap" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="intermediate.java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamsListOfLengths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intermediate.java8.StreamsListOfLengths" />
-      <module name="java-learning-roadmap" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="intermediate.java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.FirstMultithreadedProgram" />
+      <item itemvalue="Application.LiftSystem" />
       <item itemvalue="Application.FlatMapWords" />
       <item itemvalue="Application.LambdaStockSorted" />
       <item itemvalue="Application.StreamsFrequencyMap" />
-      <item itemvalue="Application.StreamsLengthUppercase" />
-      <item itemvalue="Application.StreamsListOfLengths" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstMultithreadedProgram" />
+        <item itemvalue="Application.LiftSystem" />
         <item itemvalue="Application.FlatMapWords" />
         <item itemvalue="Application.LambdaStockSorted" />
         <item itemvalue="Application.StreamsFrequencyMap" />
-        <item itemvalue="Application.StreamsLengthUppercase" />
-        <item itemvalue="Application.StreamsListOfLengths" />
       </list>
     </recent_temporary>
   </component>
