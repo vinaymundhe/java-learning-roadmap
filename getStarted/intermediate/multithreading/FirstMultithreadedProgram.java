@@ -28,7 +28,7 @@ public class FirstMultithreadedProgram {
         System.out.println("We are in thread : "+ Thread.currentThread().getName()
                 + " BEFORE START");
 
-        firstThread.start(); // Start the thread you crated
+        firstThread.start(); // Start the firstThread
 
         System.out.println("We are in thread: "+ Thread.currentThread().getName()
                 + " AFTER START");
