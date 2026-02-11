@@ -3,7 +3,7 @@ package intermediate.multithreading;
 /*
 Here we use extends Thread to implement multiple threads
 We can also implement Runnable interface if a class already extends other class.
-This is a prefered way as java doesn't allow multiple inheritance.
+This is a preferred way as java doesn't allow multiple inheritance.
 */
 
 public class CookingOrder extends Thread {
